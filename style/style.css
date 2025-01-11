@@ -299,8 +299,8 @@ header,main,footer {
 }
 
 .donate-box .box-primary:hover {
-    background-color: green;
-    color: white;
+    background-color: #2E7152;
+    color: rgb(245, 245, 245);
 }
 
 .donate-box .box-2 {
@@ -330,7 +330,7 @@ header,main,footer {
 }
 
 .input-btn:hover {
-    background-color: red;
+    background-color: #F30200;
 }
 
 footer {
