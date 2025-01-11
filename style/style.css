@@ -278,7 +278,7 @@ header,main,footer {
     justify-content: space-between;
 }
 
-.donate-content .sub-title .details {
+.donate-content .sub-title, .donate-content .details {
     text-align: center;
 }
 
