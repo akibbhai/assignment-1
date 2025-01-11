@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+/* shared style */
+
+.btn button,.input-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: red;
+}
+
+.sub-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.details {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Others style */
+
+#hero {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1280px;
+    height: 560px;
+    margin: 80px auto;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero-container span {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.hero-container h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin: 16px 0 24px 0;
+}
+
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.vision-details {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.vision-box {
+    display: flex;
+    margin: 32px 0;
+}
+
+.vision-box .box-primary {
+    padding: 32px;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 410px;
+}
+
+.vision-box .box-primary img {
+    width: 50px;
+    height: 54px;
+}
+
+.vision-box .box-primary h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 26px 0 12px 0;
+}
+
+.vision-box .box-primary .details {
+    height: 100px;
+    overflow: hidden;
+}
+
+.vision-box .box-primary .btn {
+    margin-top: 24px;
+}
+
+.vision-box .box-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-box .box-2 {
+    background-color: rgb(198, 228, 214);
+    margin: 0px 24px;
+}
+
+.vision-box .box-3 {
+    background-color: rgb(247, 235, 207);
+}
+
+.vision-box .box-1 .btn button {
+    background-color: rgb(84, 144, 245);
+}
+
+.vision-box .box-2 .btn button {
+    background-color: rgb(9, 161, 92);
+}
+
+.vision-box .box-3 .btn button {
+    background-color: rgb(255, 194, 57);
+}
+
+.vision-box .box-1 .btn button:hover {
+    background-color: rgba(84, 143, 245, 0.6);
+}
+
+.vision-box .box-2 .btn button:hover {
+    background-color: rgb(9, 161, 92, 0.6);
+}
+
+.vision-box .box-3 .btn button:hover {
+    background-color: rgb(255, 194, 57, 0.6);
+}
+
+.blog-container {
+    padding: 45px 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.vision-blog {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.vision-blog .details {
+    padding-top: 25px;
+}
+
+.vision-blog h4 {
+    margin: 12px 0 4px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.vision-blog span {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.news-portal {
+    
+}
+
+.news-content {
+    display: flex;
+    padding: 48px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+}
+
+.news-caption p {
+    margin-bottom: 40px;
+}
+
+
+.news-content .news-img {
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+    margin-right: 32px;
+}
+
+.news-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.news-channel-logo {
+    width: 134px;
+    height: 40px;
+}
+
+.time-style {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.news-content-rowr {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.donate-container {
+    margin: 80px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.donate-content .sub-title,.details {
+    text-align: center;
+}
+
+.donate-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-box .box-primary {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.donate-box .box-primary:hover {
+    background-color: green;
+    color: white;
+}
+
+.donate-box .box-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.donate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.donate-form input[type="number"] {
+    display: block;
+    width: 98%;
+    text-align: center;
+    color: black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.input-btn:hover {
+    background-color: red;
+}
+
+footer {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-bottom: 70px;
+  }
+
+.sub-container {
+    width: 750px;
+    padding: 80px;
+    text-align: center;  
+}
+
+.sub-form {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-form input[type="email"] {
+    width: 600px;
+    border-right: none;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    color: black;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.sub-form input[type="submit"] {
+    width: 150px;
+    border-left: none;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.sub-form input {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
